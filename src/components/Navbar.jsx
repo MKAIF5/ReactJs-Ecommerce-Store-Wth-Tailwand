@@ -36,7 +36,6 @@ function Navbar() {
                         <CiHeart />
                         <IoCartOutline />
                         <HiMiniUserCircle className="text-red-500 font-bold" />
-
                     </div>
                 </div>
 
