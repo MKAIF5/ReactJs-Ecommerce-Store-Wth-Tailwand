@@ -12,31 +12,39 @@ function CardSection() {
             </div>
             <br />
 
-            <div>
+            <div className="mx-24 flex gap-20">
                 <div>
                     <h1 className="text-4xl font-semibold">Flash Sales</h1>
                 </div>
 
 
-                <div>
+                <div className="flex gap-5 items-center">
                     <div>
                         <p className="text-xs font-medium">Days</p>
                         <h1 className="text-3xl font-bold">03</h1>
                     </div>
-                    <div>
-                        <div className="w-1 h-4 rounded-full bg-[#db4444]"></div>
-                        <div></div>
+
+                    <div className="space-y-2">
+                        <div className="w-2 h-2 rounded-full bg-[#db4444]"></div>
+                        <div className="w-2 h-2 rounded-full bg-[#db4444]"></div>
                     </div>
+
                     <div>
                         <p className="text-xs font-medium">Hours</p>
                         <h1 className="text-3xl font-bold">23</h1>
                     </div>
-                    <div></div>
+                    <div className="space-y-2">
+                        <div className="w-2 h-2 rounded-full bg-[#db4444]"></div>
+                        <div className="w-2 h-2 rounded-full bg-[#db4444]"></div>
+                    </div>
                     <div>
                         <p className="text-xs font-medium">Minutes</p>
                         <h1 className="text-3xl font-bold">19</h1>
                     </div>
-                    <div></div>
+                    <div className="space-y-2">
+                        <div className="w-2 h-2 rounded-full bg-[#db4444]"></div>
+                        <div className="w-2 h-2 rounded-full bg-[#db4444]"></div>
+                    </div>
                     <div>
                         <p className="text-xs font-medium">Seconds</p>
                         <h1 className="text-3xl font-bold">56</h1>
