@@ -5,7 +5,7 @@ function Home() {
     return (
         <>
             <br />  <br />
-            <div className="flex justify-center">
+            <div className="flex justify-center gap-7">
                 <div className="leading-9">
                     <p className="flex
                      items-center gap-12">Woman’s Fashion <MdOutlineKeyboardArrowRight
@@ -24,7 +24,9 @@ function Home() {
 
 
                 <div>
-
+                    <img
+                    className="iphone-img"
+                    src={iphoneImg} alt="" />
                 </div>
             </div>
 
