@@ -25,8 +25,8 @@ function Home() {
 
                 <div>
                     <img
-                    className="iphone-img"
-                    src={iphoneImg} alt="" />
+                        className="iphone-img"
+                        src={iphoneImg} alt="" />
                 </div>
             </div>
 
