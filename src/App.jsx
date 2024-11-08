@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Home from './components/Home'
 import CardSection from './components/CardSection'
 import './App.css'
+import Card from './components/Card'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <Home />
       <CardSection />
+      <Card />
     </>
   )
 }
