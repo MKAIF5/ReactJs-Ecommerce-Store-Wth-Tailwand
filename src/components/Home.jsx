@@ -1,4 +1,4 @@
-import iphoneImg from "../assets/img/iphone.png"
+import iphoneImg from "../assets/img/iphone.svg"
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 function Home() {

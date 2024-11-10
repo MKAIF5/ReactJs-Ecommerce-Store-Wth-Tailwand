@@ -7,12 +7,14 @@ import img2 from "../assets/img/keyboard.svg"
 import img3 from "../assets/img/laptop.svg"
 import img4 from "../assets/img/chair.svg"
 
+
 function Card() {
+
+
     return (
         <>
             <br />
             <div className="flex justify-center gap-12">
-
 
 
                 {/* card 1 */}
@@ -177,17 +179,17 @@ function Card() {
 
                         <div className="flex justify-between">
                             <div className='text-white w-14 bg-[#db4444] flex justify-center
-      items-center text-xs h-6'>
+                  items-center text-xs h-6'>
                                 <p>-25%</p>
                             </div>
                             <div className="space-y-3">
                                 <div className="w-8 h-8 bg-white flex justify-center
-        items-center text-2xl rounded-full">
+                 items-center text-2xl rounded-full">
                                     <CiHeart />
                                 </div>
 
                                 <div className="w-8 h-8 bg-white flex justify-center
-           items-center text-2xl rounded-full">
+                 items-center text-2xl rounded-full">
                                     <FiEye />
                                 </div>
                             </div>
@@ -212,16 +214,25 @@ function Card() {
                             <FaStar className="text-yellow-400 w-5 h-5" />
                             <FaStar className="text-yellow-400 w-5 h-5" />
                             <FaStar className="text-yellow-400 w-5 h-5" />
-                    <FaStarHalfAlt  className="text-yellow-400 w-5 h-5"/>
+                            <FaStarHalfAlt className="text-yellow-400 w-5 h-5" />
                             <p className="text-sm text-gray-400 ml-2">(99)</p>
                         </div>
                     </div>
                 </div>
 
                 {/* card 4 end */}
+            </div>
 
+            <br /><br />
+            <div className="flex justify-center">
+                <button className="w-56 h-14 bg-[#db4444] rounded
+                font-medium text-white">View All Products</button>
+            </div>
+            <br /><br />
+            <div className="bg-gray-300 w-3/4 h-0.5 mx-auto">
 
             </div>
+            <br /><br />
         </>
     )
 }
