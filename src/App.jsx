@@ -6,6 +6,7 @@ import Card from './components/Card'
 import Category from './components/Category'
 import Month from './components/Month'
 import './App.css'
+import Enhance from './components/Enhance'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Card />
       <Category />
       <Month />
+      <Enhance />
     </>
   )
 }
