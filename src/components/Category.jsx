@@ -1,5 +1,11 @@
 import { FaArrowLeft } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa6";
+import mobile from "../assets/img/mobile.svg"
+import computer from "../assets/img/computer.svg"
+import smart from "../assets/img/smart.svg"
+import camera from "../assets/img/camera.svg"
+import headphone from "../assets/img/headphone.svg"
+import gaming from "../assets/img/gaming.svg"
 
 function Category() {
     return (
@@ -28,20 +34,63 @@ function Category() {
             </div>
             <br /><br /><br />
 
-            <div className="flex justify-center">
+            <div className="flex justify-center gap-6">
 
-                <div className="w-44 h-36 border border-gray-400">
-
+                <div className="w-44 h-36 border border-gray-400 rounded flex
+                justify-center items-center">
+                    <div>
+                        <img className="mx-auto" src={mobile} alt="" />
+                        <p className="mt-4">Phones</p>
+                    </div>
                 </div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+
+                <div className="w-44 h-36 border border-gray-400 rounded flex
+                justify-center items-center">
+                    <div>
+                        <img className="mx-auto" src={computer} alt="" />
+                        <p className="mt-4">Computers</p>
+                    </div>
+                </div>
+
+                <div className="w-44 h-36 border border-gray-400 rounded flex
+                justify-center items-center">
+                    <div>
+                        <img className="mx-auto" src={smart} alt="" />
+                        <p className="mt-4">SmartWatch</p>
+                    </div>
+                </div>
+
+                <div className="w-44 h-36 border border-gray-400 rounded flex
+                justify-center items-center">
+                    <div>
+                        <img className="mx-auto" src={camera} alt="" />
+                        <p className="mt-4">Camera</p>
+                    </div>
+                </div>
+
+                <div className="w-44 h-36 border border-gray-400 rounded flex
+                justify-center items-center">
+                    <div>
+                        <img className="mx-auto" src={headphone} alt="" />
+                        <p className="mt-4">HeadPhones</p>
+                    </div>
+                </div>
+
+                <div className="w-44 h-36 border border-gray-400 rounded flex
+                justify-center items-center">
+                    <div>
+                        <img className="mx-auto" src={gaming} alt="" />
+                        <p className="mt-4">Gaming</p>
+                    </div>
+                </div>
 
 
             </div>
-            <br /><br />
+            <br /><br /><br />
+            <div className="bg-gray-300 w-3/4 h-0.5 mx-auto">
+
+            </div>
+            <br /><br /><br />
         </>
     );
 }
