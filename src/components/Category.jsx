@@ -26,7 +26,22 @@ function Category() {
                     </div>
                 </div>
             </div>
-            <br />
+            <br /><br /><br />
+
+            <div className="flex justify-center">
+
+                <div className="w-44 h-36 border border-gray-400">
+
+                </div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+
+
+            </div>
+            <br /><br />
         </>
     );
 }
