@@ -5,8 +5,9 @@ import CardSection from './components/CardSection'
 import Card from './components/Card'
 import Category from './components/Category'
 import Month from './components/Month'
-import './App.css'
 import Enhance from './components/Enhance'
+import Products from './components/Products'
+import './App.css'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <Category />
       <Month />
       <Enhance />
+      <Products />
     </>
   )
 }
