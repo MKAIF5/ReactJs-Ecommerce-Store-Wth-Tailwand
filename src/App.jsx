@@ -4,6 +4,7 @@ import Home from './components/Home'
 import CardSection from './components/CardSection'
 import Card from './components/Card'
 import Category from './components/Category'
+import Month from './components/Month'
 import './App.css'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <CardSection />
       <Card />
       <Category />
+      <Month />
     </>
   )
 }
