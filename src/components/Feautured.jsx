@@ -5,6 +5,7 @@ import perfume from "../assets/img/perfume.svg";
 import f1 from "../assets/img/f-1.svg"
 import f2 from "../assets/img/f-2.svg"
 import f3 from "../assets/img/f-3.svg"
+import arrow from "../assets/img/top-arrow.svg"
 
 function Feautured() {
     return (
@@ -62,7 +63,11 @@ function Feautured() {
                     <p className="text-sm text-center">We reurn money within 30 days</p>
                 </div>
             </div>
-            <br /><br /><br /><br />
+            <br /><br />
+            <div className="flex justify-end mr-10 cursor-pointer">
+                <img src={arrow} alt="" />
+            </div>
+            <br /><br />
         </>
     )
 }
