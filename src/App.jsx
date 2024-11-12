@@ -13,6 +13,7 @@ import './App.css'
 
 function App() {
   return (
+
     <>
       <Banner />
       <Navbar />
@@ -26,6 +27,7 @@ function App() {
       <Feautured />
       <Footer />
     </>
+    
   )
 }
 
