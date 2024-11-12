@@ -8,6 +8,7 @@ import Month from './components/Month'
 import Enhance from './components/Enhance'
 import Products from './components/Products'
 import Feautured from './components/Feautured'
+import Footer from './components/Footer'
 import './App.css'
 
 function App() {
@@ -22,7 +23,8 @@ function App() {
       <Month />
       <Enhance />
       <Products />
-      <Feautured/>
+      <Feautured />
+      <Footer />
     </>
   )
 }

@@ -52,14 +52,14 @@ function Feautured() {
 
                 <div className="flex flex-col items-center space-y-3">
                     <img src={f2} alt="" />
-                    <p className="text-xl font-semibold text-center">FREE AND FAST DELIVERY</p>
-                    <p className="text-sm text-center">Free delivery for all orders over $140</p>
+                    <p className="text-xl font-semibold text-center">24/7 CUSTOMER SERVICE</p>
+                    <p className="text-sm text-center">Friendly 24/7 customer support</p>
                 </div>
 
                 <div className="flex flex-col items-center space-y-3">
                     <img src={f3} alt="" />
-                    <p className="text-xl font-semibold text-center">FREE AND FAST DELIVERY</p>
-                    <p className="text-sm text-center">Free delivery for all orders over $140</p>
+                    <p className="text-xl font-semibold text-center">MONEY BACK GUARANTEE</p>
+                    <p className="text-sm text-center">We reurn money within 30 days</p>
                 </div>
             </div>
             <br /><br /><br /><br />
