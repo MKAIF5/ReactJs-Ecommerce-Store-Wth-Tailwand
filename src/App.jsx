@@ -7,10 +7,10 @@ import Category from './components/Category'
 import Month from './components/Month'
 import Enhance from './components/Enhance'
 import Products from './components/Products'
+import Feautured from './components/Feautured'
 import './App.css'
 
 function App() {
-
   return (
     <>
       <Banner />
@@ -22,6 +22,7 @@ function App() {
       <Month />
       <Enhance />
       <Products />
+      <Feautured/>
     </>
   )
 }
