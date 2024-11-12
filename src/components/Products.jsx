@@ -268,20 +268,20 @@ items-center text-2xl rounded-full">
                     </div>
                     <div className="mt-6 leading-9">
                         <div>
-                            <p className="text-base font-medium">Breed Dry Dog Food</p>
+                            <p className="text-base font-medium">Kids Electric Car</p>
                         </div>
                         <div>
                             <p
                                 className="text-[#db4444] flex gap-3"
-                            >$100</p>
+                            >$960</p>
                         </div>
                         <div className="flex gap-1">
                             <FaStar className="text-yellow-400 w-5 h-5" />
                             <FaStar className="text-yellow-400 w-5 h-5" />
                             <FaStar className="text-yellow-400 w-5 h-5" />
-                            <FaStar className="text-gray-400 w-5 h-5" />
-                            <FaStar className="text-gray-400 w-5 h-5" />
-                            <p className="text-sm text-gray-400 ml-2">(35)</p>
+                            <FaStar className="text-yellow-400 w-5 h-5" />
+                            <FaStar className="text-yellow-400 w-5 h-5" />
+                            <p className="text-sm text-gray-400 ml-2">(65)</p>
                         </div>
                     </div>
                 </div>
@@ -313,12 +313,12 @@ items-center text-2xl rounded-full">
                     </div>
                     <div className="mt-5 leading-9">
                         <div>
-                            <p className="text-base font-medium">CANON EOS DSLR Camera</p>
+                            <p className="text-base font-medium">Jr. Zoom Soccer Cleats</p>
                         </div>
                         <div>
                             <p
                                 className="text-[#db4444] flex gap-3"
-                            >$360</p>
+                            >$1160</p>
                         </div>
                         <div className="flex gap-1">
                             <FaStar className="text-yellow-400 w-5 h-5" />
@@ -326,7 +326,7 @@ items-center text-2xl rounded-full">
                             <FaStar className="text-yellow-400 w-5 h-5" />
                             <FaStar className="text-yellow-400 w-5 h-5" />
                             <FaStar className="text-gray-400 w-5 h-5" />
-                            <p className="text-sm text-gray-400 ml-2">(95)</p>
+                            <p className="text-sm text-gray-400 ml-2">(35)</p>
                         </div>
                     </div>
                 </div>
@@ -362,20 +362,20 @@ items-center text-2xl rounded-full">
                     </div>
                     <div className="mt-5 leading-9">
                         <div>
-                            <p className="text-base font-medium">ASUS FHD Gaming Laptop</p>
+                            <p className="text-base font-medium">GP11 Shooter USB Gamepad</p>
                         </div>
                         <div>
                             <p
                                 className="text-[#db4444] flex gap-3"
-                            >$700</p>
+                            >$660</p>
                         </div>
                         <div className="flex gap-1">
                             <FaStar className="text-yellow-400 w-5 h-5" />
                             <FaStar className="text-yellow-400 w-5 h-5" />
                             <FaStar className="text-yellow-400 w-5 h-5" />
                             <FaStar className="text-yellow-400 w-5 h-5" />
-                            <FaStar className="text-yellow-400 w-5 h-5" />
-                            <p className="text-sm text-gray-400 ml-2">(325)</p>
+                            <FaStarHalfAlt className="text-yellow-400 w-5 h-5"/>
+                            <p className="text-sm text-gray-400 ml-2">(55)</p>
                         </div>
                     </div>
                 </div>
@@ -407,20 +407,20 @@ items-center text-2xl rounded-full">
                     </div>
                     <div className="mt-5 leading-9">
                         <div>
-                            <p className="text-base font-medium">Curology Product Set </p>
+                            <p className="text-base font-medium">Quilted Satin Jacket</p>
                         </div>
                         <div>
                             <p
                                 className="text-[#db4444] flex gap-3"
-                            >$500</p>
+                            >$660</p>
                         </div>
                         <div className="flex gap-1">
                             <FaStar className="text-yellow-400 w-5 h-5" />
                             <FaStar className="text-yellow-400 w-5 h-5" />
                             <FaStar className="text-yellow-400 w-5 h-5" />
                             <FaStar className="text-yellow-400 w-5 h-5" />
-                            <FaStar className="text-gray-400 w-5 h-5" />
-                            <p className="text-sm text-gray-400 ml-2">(145)</p>
+                            <FaStarHalfAlt className="text-yellow-400 w-5 h-5"/>
+                            <p className="text-sm text-gray-400 ml-2">(55)</p>
                         </div>
                     </div>
                 </div>
