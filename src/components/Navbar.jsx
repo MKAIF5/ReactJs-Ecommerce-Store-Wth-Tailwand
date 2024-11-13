@@ -13,8 +13,8 @@ function Navbar() {
                 </div>
 
                 <div>
-                    <ul className="flex gap-12 text-base">
-                        <li>Home</li>
+                    <ul className="flex gap-12 text-base cursor-pointer">
+                        <li className="underline">Home</li>
                         <li>Contact</li>
                         <li>About</li>
                         <li>Sign Up</li>

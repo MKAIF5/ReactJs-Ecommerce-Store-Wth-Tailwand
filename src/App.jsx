@@ -1,3 +1,5 @@
+
+
 import Banner from './components/Banner'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
@@ -10,11 +12,13 @@ import Products from './components/Products'
 import Feautured from './components/Feautured'
 import Footer from './components/Footer'
 import './App.css'
+// import { RouterProvider } from 'react-router-dom'
 
 function App() {
   return (
 
     <>
+      {/* <RouterProvider router={router} /> */}
       <Banner />
       <Navbar />
       <Home />
@@ -27,7 +31,7 @@ function App() {
       <Feautured />
       <Footer />
     </>
-    
+
   )
 }
 
