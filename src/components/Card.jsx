@@ -1,7 +1,6 @@
 import { CiHeart } from "react-icons/ci";
 import { FiEye } from "react-icons/fi";
-import { FaStar } from "react-icons/fa";
-import { FaStarHalfAlt } from "react-icons/fa";
+import { FaStar, FaStarHalfAlt } from "react-icons/fa";
 import img1 from "../assets/img/game1.png"
 import img2 from "../assets/img/keyboard.svg"
 import img3 from "../assets/img/laptop.svg"
