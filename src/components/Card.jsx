@@ -21,7 +21,7 @@ function Card() {
                 {/* card 1 */}
                 <div>
 
-                    <div className='w-64 bg-gray-200 p-3 rounded'>
+                    <div className='w-64 bg-gray-200 p-3 rounded shadow-lg'>
 
                         <div className="flex justify-between">
                             <div className='text-white w-14 bg-[#db4444] flex justify-center
@@ -70,7 +70,7 @@ function Card() {
 
                 {/* card 2 */}
                 <div>
-                    <div className='w-64 bg-gray-200 h-60 p-3 rounded'>
+                    <div className='w-64 bg-gray-200 h-60 p-3 rounded shadow-lg'>
 
                         <div className="flex justify-between">
                             <div className='text-white w-14 bg-[#db4444] flex justify-center
@@ -124,7 +124,7 @@ function Card() {
                 {/* card 3 */}
                 <div>
 
-                    <div className='w-64 bg-gray-200 p-3 rounded'>
+                    <div className='w-64 bg-gray-200 p-3 rounded shadow-lg'>
 
                         <div className="flex justify-between">
                             <div className='text-white w-14 bg-[#db4444] flex justify-center
@@ -176,7 +176,7 @@ function Card() {
                 {/* card 4 */}
                 <div>
 
-                    <div className='w-64 bg-gray-200 p-3 rounded'>
+                    <div className='w-64 bg-gray-200 p-3 rounded shadow-lg'>
 
                         <div className="flex justify-between">
                             <div className='text-white w-14 bg-[#db4444] flex justify-center
