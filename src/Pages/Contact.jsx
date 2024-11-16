@@ -23,14 +23,13 @@ function Contact() {
   };
 
   return (
+      <>
     <div className="container mx-auto p-8">
       <div className="flex justify-between items-start space-x-8">
-        {/* Contact Info Section */}
         <div className="w-1/2 bg-white p-6 shadow-xl rounded-lg">
           <h2 className="text-3xl font-bold text-gray-800">Contact Us</h2>
           <p className="mt-4 text-lg text-gray-600">We'd love to hear from you! Please reach out with any questions or feedback.</p>
 
-          {/* Social Icons */}
           <div className="mt-6 flex space-x-6">
             <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-800 hover:text-blue-600">
               <FaFacebook size={30} />
@@ -47,7 +46,6 @@ function Contact() {
           </div>
         </div>
 
-        {/* Contact Form Section */}
         <div className="w-1/2">
           <img src={contact} alt="Contact" className="w-full rounded-lg shadow-xl mb-6" />
           <form onSubmit={handleSubmit} className="bg-white p-6 shadow-xl rounded-lg">
@@ -87,6 +85,7 @@ function Contact() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 
