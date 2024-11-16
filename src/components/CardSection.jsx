@@ -65,7 +65,6 @@ function CardSection() {
                     </div>
                 </div>
             </div>
-            {/* Flash Sales Section Cmpleted */}
 
         </>
     )

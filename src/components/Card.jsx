@@ -1,4 +1,3 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
 import { CiHeart } from "react-icons/ci";
 import { FiEye } from "react-icons/fi";
 import { FaStar, FaStarHalfAlt } from "react-icons/fa";
